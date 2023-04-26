@@ -1,1 +1,7 @@
-# Testing_Kaft
+I tested kaft's site for my project. Kaft is an e-commerce website and I used both automated tests with selenium and manual tests to test this site. Kaft does not have search or filtering features due to the small number of products. Instead of these, users can reach the types of clothes they want by selecting them from the menu. Each outfit type has its own button and page. If these buttons are pressed, they should direct the user to the relevant page. I manually tested the functionality of these buttons and whether the pages they refer to match the selected outfit.
+As in many sites, Kaft also has the functions of opening an account and logging in. In order to open an account, the name, surname, e-mail, password and password must be re-entered, and then the user agreement acceptance box must be ticked.
+I used boundary value analysis method and equivalance partition method for name, surname and password information. Name and surname information must be between 2 characters and 50 characters (including 2 and 50). Password must be between 6 and 20 characters (including 6 and 20). My tests proved that the account opening process works as it should.
+Email and password must be entered to login. To test this, I did the decision table method and produced four different test cases. It should only be accessible when the e-mail and password are correct at the same time. According to my tests, the login process works as it should.
+I also used use case method to test normal flows and alternate flows. Users are not going to have any issue while using this web site because all flows are tested and there aren’t any errors.
+
+Doğa Kayra YILMAZARSLAN
