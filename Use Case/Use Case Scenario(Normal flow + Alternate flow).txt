@@ -1,0 +1,16 @@
+Normal Flow:
+
+1.User logs in.
+2.User selects an item.
+3.User add item to the wish list.
+4.User buys the item in the wish list.
+5.User enters payment information.
+
+Alternate flow:
+
+1 A. User can't log in.
+3 A. User didn't want to add item to the wishlist.
+3 B. Item is out of stock.
+4 A. User cancels purchase proccess.
+5 A. User enters invalid payment information.
+5 B. Card balance is unsufficient.
